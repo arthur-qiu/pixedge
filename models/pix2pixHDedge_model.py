@@ -196,7 +196,7 @@ class Pix2PixHDedgeModel(BaseModel):
             loss_G_VGG = self.criterionVGG(fake_image, real_image) * self.opt.lambda_feat
         
         # Only return the fake_B image if necessary to save BW
-        return [ self.loss_filter( loss_G_GAN, loss_G_GAN_Feat, loss_G_VGG, loss_D_real, loss_D_fake ), None if not infer else fake_image ]
+        return [ self.loss_filter( loss_G_GAN, loss_G_GAN_Feat, loss_G_VGG, loss_D_real, loss_D_fake ), None if not infer else fake_image, input_label]
 
     def inference(self, label, inst, image=None):
         # Encode Inputs        
@@ -222,7 +222,7 @@ class Pix2PixHDedgeModel(BaseModel):
                 fake_image = self.netG.forward(input_concat)
         else:
             fake_image = self.netG.forward(input_concat)
-        return fake_image
+        return fake_image, input_label
 
     def sample_features(self, inst): 
         # read precomputed feature clusters 
