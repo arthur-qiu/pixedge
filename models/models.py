@@ -25,6 +25,12 @@ def create_model(opt):
             model = Pix2PixHDedgeModel()
         else:
             model = InferenceModel()
+    elif opt.model == 'pix2pixHDedgeComb':
+        from .pix2pixHDedgeComb_model import Pix2PixHDedgeCombModel, InferenceModel
+        if opt.isTrain:
+            model = Pix2PixHDedgeCombModel()
+        else:
+            model = InferenceModel()
     elif opt.model == 'pix2pixHDimgnet':
         from .pix2pixHDimgnet_model import Pix2PixHDimgnetModel, InferenceModel
         if opt.isTrain:
