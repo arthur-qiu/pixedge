@@ -160,7 +160,7 @@ class Pix2PixHDedgeCombModel(BaseModel):
         # Encode Inputs
         input_label, inst_map, real_image, feat_map = self.encode_input(label, inst, image, feat)
 
-        input_label = torch.cat([get_edge(input_label, 1, 0.3, 0.2, 0.3), self.blur_net], 0)
+        input_label = torch.cat([get_edge(input_label, 1, 0.3, 0.2, 0.3), self.blur_net(input_label)], 0).detach()
 
         # Fake Generation
         if self.use_features:
@@ -206,7 +206,7 @@ class Pix2PixHDedgeCombModel(BaseModel):
         image = Variable(image) if image is not None else None
         input_label, inst_map, real_image, _ = self.encode_input(Variable(label), Variable(inst), image, infer=True)
 
-        input_label = torch.cat([get_edge(input_label, 1, 0.3, 0.2, 0.3), self.blur_net], 0)
+        input_label = torch.cat([get_edge(input_label, 1, 0.3, 0.2, 0.3), self.blur_net(input_label)], 0).detach()
 
         # Fake Generation
         if self.use_features:
