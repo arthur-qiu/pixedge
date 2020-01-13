@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/blur_net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="162" column="92" selection-start-line="162" selection-start-column="92" selection-end-line="162" selection-end-column="92" />
+            <state relative-caret-position="383">
+              <caret line="162" column="104" selection-start-line="162" selection-start-column="104" selection-end-line="162" selection-end-column="104" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -233,12 +230,12 @@
       <workItem from="1578724179335" duration="2233000" />
       <workItem from="1578736627342" duration="9639000" />
       <workItem from="1578822720901" duration="1991000" />
-      <workItem from="1578835003777" duration="1833000" />
+      <workItem from="1578835003777" duration="2049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54512000" />
+    <option name="totallyTimeSpent" value="54728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-231" y="-907" width="1440" height="877" extended-state="0" />
@@ -584,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="162" column="92" selection-start-line="162" selection-start-column="92" selection-end-line="162" selection-end-column="92" />
+        <state relative-caret-position="383">
+          <caret line="162" column="104" selection-start-line="162" selection-start-column="104" selection-end-line="162" selection-end-column="104" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
