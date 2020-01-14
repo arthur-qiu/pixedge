@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/blur_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/blur_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/base_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/options/base_options.py" afterDir="false" />
-    </list>
+    <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,12 +241,12 @@
       <workItem from="1578724179335" duration="2233000" />
       <workItem from="1578736627342" duration="9639000" />
       <workItem from="1578822720901" duration="1991000" />
-      <workItem from="1578835003777" duration="4426000" />
+      <workItem from="1578835003777" duration="4831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57105000" />
+    <option name="totallyTimeSpent" value="57510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-94" y="-1044" width="1440" height="877" extended-state="0" />
