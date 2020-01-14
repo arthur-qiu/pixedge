@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/blur_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/blur_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" afterDir="false" />
-    </list>
+    <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+            <state relative-caret-position="235">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -49,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/blur_net.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -106,7 +103,6 @@
       <find>define_G</find>
       <find>pix</find>
       <find>max</find>
-      <find>print</find>
       <find>visuals</find>
       <find>generated</find>
       <find>max_dataset_size</find>
@@ -114,6 +110,7 @@
       <find>input_label = get_edge(input_label, 1, 0.3, 0.2, 0.3)</find>
       <find>inference</find>
       <find>Pix2PixHDedgeCombModel</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,16 +244,15 @@
       <workItem from="1578724179335" duration="2233000" />
       <workItem from="1578736627342" duration="9639000" />
       <workItem from="1578822720901" duration="1991000" />
-      <workItem from="1578835003777" duration="6243000" />
+      <workItem from="1578835003777" duration="6626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58922000" />
+    <option name="totallyTimeSpent" value="59305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-94" y="-1044" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -576,16 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/pix2pixHDedge_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
@@ -602,6 +588,16 @@
           <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
