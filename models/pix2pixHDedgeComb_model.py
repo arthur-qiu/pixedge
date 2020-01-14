@@ -113,7 +113,7 @@ class Pix2PixHDedgeCombModel(BaseModel):
             params = list(self.netD.parameters())    
             self.optimizer_D = torch.optim.Adam(params, lr=opt.lr, betas=(opt.beta1, 0.999))
 
-        self.blur_net = BlurNet()
+        self.blur_net = BlurNet(opt.degrade_factor)
 
     def encode_input(self, label_map, inst_map=None, real_image=None, feat_map=None, infer=False):             
         if self.opt.label_nc == 0:
