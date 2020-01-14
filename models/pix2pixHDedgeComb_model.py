@@ -160,6 +160,7 @@ class Pix2PixHDedgeCombModel(BaseModel):
         # Encode Inputs
         input_label, inst_map, real_image, feat_map = self.encode_input(label, inst, image, feat)
 
+        print(input_label.shape)
         input_label = torch.cat([get_edge(input_label, 1, 0.3, 0.2, 0.3), self.blur_net(input_label)], 1).detach()
 
         # Fake Generation
