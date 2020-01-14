@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3347fdb3-edab-4b03-88a6-a3e1056bc760" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/models/blur_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/blur_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+            <state relative-caret-position="690">
+              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/blur_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+            <state relative-caret-position="330">
+              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -246,12 +247,12 @@
       <workItem from="1578724179335" duration="2233000" />
       <workItem from="1578736627342" duration="9639000" />
       <workItem from="1578822720901" duration="1991000" />
-      <workItem from="1578835003777" duration="5864000" />
+      <workItem from="1578835003777" duration="6243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58543000" />
+    <option name="totallyTimeSpent" value="58922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-94" y="-1044" width="1440" height="877" extended-state="0" />
@@ -548,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/pix2pixHDedge_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="200" column="17" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -587,8 +578,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/pix2pixHDedgeComb_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+        <state relative-caret-position="690">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/pix2pixHDedge_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="200" column="17" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -597,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/blur_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="330">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
