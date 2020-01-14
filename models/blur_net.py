@@ -19,6 +19,6 @@ class BlurNet(nn.Module):
 
     def forward(self, x):
         out = nn.functional.conv2d(self.pad(x), self.filter_weight1, groups = 3)
-        out = nn.functional.interpolate(out, scale_factor=1 / self.factor, mode = 'bicubic')
-        out = nn.functional.interpolate(out, scale_factor=self.factor, mode = 'nearest')
+        out = nn.functional.interpolate(out, scale_factor=0.5, mode = 'bicubic')
+        out = nn.functional.interpolate(out, scale_factor=2, mode = 'nearest')
         return out
